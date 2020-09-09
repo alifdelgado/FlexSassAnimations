@@ -1,0 +1,17 @@
+ul{
+    background-color: lightslategray;
+    padding: 20px;
+    /* display: inline-flex; */
+    display: flex;
+    /* justify-content: center; */
+}
+
+li {
+    /* display: inline-flex; */
+    list-style: none;
+    color: #fff;
+    background-color: #20b2aa;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+}
