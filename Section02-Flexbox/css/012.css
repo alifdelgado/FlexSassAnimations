@@ -1,0 +1,24 @@
+ul {
+    background-color: lightslategray;
+    padding: 20px;
+    /* height: 300px; */
+    display: flex;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    background-color: #20b2aa;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+}
