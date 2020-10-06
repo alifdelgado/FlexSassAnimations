@@ -1,0 +1,25 @@
+ul {
+    background-color: lightslategray;
+    padding: 20px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    background-color: #20b2aa;
+    padding: 10px;
+    margin: 10px;
+}
+
+li:first-child {
+    /* align-self: auto; */
+    /* align-self: flex-end; */
+    align-self: flex-start;
+    /* align-self: center; */
+    /* align-self: stretch; */
+    /* align-self: baseline;
+    padding: 5px; */
+}

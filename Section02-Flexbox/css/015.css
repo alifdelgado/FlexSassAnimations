@@ -1,0 +1,32 @@
+ul {
+    background-color: lightslategray;
+    padding: 20px;
+    /* height: 300px; */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    background-color: #20b2aa;
+    padding: 10px;
+    margin: 10px;
+}
+
+li:nth-child(3) {
+    order: 1;
+}
+
+li:nth-child(1) {
+    order: 3;
+}
+
+li:nth-child(6) {
+    order: 2;
+}
+
+li:nth-child(5) {
+    order: 5;
+}
