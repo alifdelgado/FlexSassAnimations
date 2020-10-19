@@ -1,0 +1,11 @@
+img {
+    width: 50vw;
+    height: 50vh;
+    object-fit: cover;
+    border: 0.2rem solid lightslategray;
+}
+
+img:last-of-type {
+    /* width: 50vmin; */
+    width: 50vmax;
+}
