@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    color: #fff;
+    background-color: #0f9b8e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+i {
+    font-size: 5rem;
+}
+
+sup {
+    font-size: 0.8rem;
+}
+
+::selection {
+    color: #fcc006;
+    background-color: #ff7052;
+}
+
+/* Section => container of them all */
+section#weather {
+    margin: 2rem auto 0;
+}
+
+/* main heading */
+h1 {
+    font-size: 6rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.4rem;
+}
+
+/* Weather Info -- Temp Container */
+div.weather__info__temp {
+    padding: 4rem;
+}
+
+/* Weather Info */
+div.weather__info {
+    display: flex;
+    margin: 5rem 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.weather__temp {
+    display: flex;
+    justify-content: space-around;
+}
