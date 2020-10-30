@@ -1,0 +1,56 @@
+/*
+
+16      10
+100     X
+-----------
+100*10/16 => 62.5
+
+*/
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 7.5rem;
+    background-color: lightsteelblue;
+}
+
+section {
+    /* height: 30rem; */
+    background-color: lightskyblue;
+}
+
+footer {
+    height: 8.5rem;
+    background-color: lightseagreen;
+}
+
+header,
+section,
+footer {
+    display: flex;
+    color: #fff;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section {
+    height: calc(100vh - 7.5rem - 8.5rem);
+} */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+section {
+    flex-grow: 1;
+}

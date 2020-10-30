@@ -1,0 +1,13 @@
+@media screen and (max-width:800px) {
+    /* Weather Temp Container */
+    div.weather__temp {
+        flex-direction: column;
+    }
+
+    /* Day containers */
+    div.weather__temp > div {
+        display: flex;
+        margin-bottom: 2rem;
+        justify-content: space-evenly;
+    }
+}

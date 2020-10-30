@@ -1,0 +1,24 @@
+/* :root => html => replace px with rem */
+:root {
+    font-size: 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    /* font-size: 3vw; */
+    text-align: center;
+    /* font-size: calc(14px + 2vw); */
+    font-size: calc(1.4rem + 2vw);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-height: 1500px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+}
