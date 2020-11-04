@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 5vh 5vw;
+    /* border-top: 5px solid lightslategray; */
+    /* border-top: 0.3333vw solid lightslategray; */
+    border-top: calc(2px + 0.186vw) solid lightslategray;
+    background-color: rgb(227, 232, 238);
+
+}
+
+a {
+    margin: 0 2vw;
+    color: #444;
+    text-decoration: none;
+}

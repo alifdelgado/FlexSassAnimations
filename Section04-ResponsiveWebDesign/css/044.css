@@ -2,3 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    height: 40vh;
+    /* padding: 80px; */
+    /* padding: 10vh 5vw; */
+    padding: calc(4px + 2vh) calc(4px + 2vw);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightsalmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin-bottom: 3vh;
+}
